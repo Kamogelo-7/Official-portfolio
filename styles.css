@@ -174,6 +174,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   transition: ease-in 0.8s;
+  transition: ease-out 0.9s;
 }
 h1:hover {
   color: rgb(248, 240, 10);
@@ -254,8 +255,9 @@ footer {
     list-style-type: none;
     width: 100%;
   }
+
   #email {
-    background: #5e5df0;
+    background: var(--button-color);
     border-radius: 90px;
     box-shadow: #5e5df0 0 10px 20px -10px;
     box-sizing: border-box;

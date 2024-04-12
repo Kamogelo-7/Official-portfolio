@@ -54,7 +54,7 @@ ul {
   display: flex;
   align-content: center;
   justify-content: center;
-  gap:30px
+  gap:50px
 }
 li {
   color: var(--LiText-color);
@@ -349,7 +349,7 @@ footer {
     display: flex;
     align-content: center;
     justify-content: center;
-    gap:30px
+    gap:50px
   }
   li {
     list-style-type: none;

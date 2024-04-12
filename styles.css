@@ -52,7 +52,8 @@ nav {
 ul {
   margin: 0;
   display: flex;
-  justify-content: flex-end;
+  align-content: center;
+  justify-content: center;
   gap: 20px;
   padding-right: 10px;
   padding-left: 0;
@@ -348,7 +349,8 @@ footer {
   ul {
     margin: 0;
     display: flex;
-    justify-content: flex-end;
+    align-content: center;
+    justify-content: center;
     gap: 20px;
     padding-right: 10px;
     padding-left: 0;

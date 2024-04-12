@@ -54,7 +54,7 @@ ul {
   display: flex;
   align-content: center;
   justify-content: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 li {
   color: var(--LiText-color);

@@ -54,9 +54,7 @@ ul {
   display: flex;
   align-content: center;
   justify-content: center;
-  gap: 20px;
-  padding-right: 10px;
-  padding-left: 0;
+  justify-content: space-evenly;
 }
 li {
   color: var(--LiText-color);
@@ -351,9 +349,7 @@ footer {
     display: flex;
     align-content: center;
     justify-content: center;
-    gap: 20px;
-    padding-right: 10px;
-    padding-left: 0;
+    justify-content: space-evenly;
   }
   li {
     list-style-type: none;

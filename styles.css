@@ -1,16 +1,18 @@
 :root {
-  --navbar-color: rgb(25, 25, 25);
-  --background-color: #f7b733;
-  --button-color: rgb(0, 110, 255);
-  --SecondSection-color: rgb(21, 21, 21);
-  --LiText-color: #ffdede;
+  --navbar-color: hsl(0, 0%, 0%);
+  --background-color: hsl(40, 92%, 58%);
+  --button-color: hsl(214, 100%, 50%);
+  --SecondSection-color: hsl(0, 0%, 0%);
+  --LiText-color: hsl(0, 40%, 98%);
 }
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(51, 51, 51);
+  background-color: var(--navbar-color);
 }
 img {
+  border-style: dotted;
+  border-color: black 15px;
   margin: 10px;
   width: 100px;
   border-radius: 70px;
@@ -41,20 +43,22 @@ em {
   display: flex;
   justify-content: flex-start;
 }
+
 nav {
   padding-top: 20px;
   top: 0;
   width: 100%;
   position: static;
   padding-bottom: 20px;
-  background-color: var(--navbar-color);
 }
 ul {
   margin: 0;
   display: flex;
   align-content: center;
   justify-content: center;
-  gap:50px
+  gap: 20px;
+  padding-right: 10px;
+  padding-left: 0;
 }
 li {
   color: var(--LiText-color);
@@ -62,6 +66,10 @@ li {
   list-style-type: none;
   text-transform: uppercase;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#centered {
+  text-align: center;
+  margin-top: 5px;
 }
 b {
   background-color: var(--button-color);
@@ -74,13 +82,40 @@ b {
   box-shadow: #010101 0 10px 20px -10px;
 }
 
+/* This is the boostrap Customizing components section features */
+.nav-link {
+  padding-top: 1px;
+  color: var(--LiText-color);
+}
+.opacity-75 {
+  text-align: center;
+}
+.middle {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+#myCarousel {
+  margin-top: 20px;
+}
+.row {
+  margin: 10px;
+}
+#div {
+  background-color: var(--background-color);
+}
+.centered {
+  padding: 30px;
+  margin: 0;
+}
 #email {
   background: var(--button-color);
   border-radius: 90px;
   box-shadow: #5e5df0 0 10px 20px -10px;
   box-sizing: border-box;
   color: #ffffff;
-  cursor: pointer;
+  cursor: progress;
   font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
     NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
     EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
@@ -146,6 +181,7 @@ p#self {
   text-align: center;
   display: flex;
   font-size: 1.2rem;
+  color: var(--LiText-color);
 }
 .side {
   display: flex;
@@ -203,11 +239,19 @@ footer {
     padding-bottom: 20px;
     background-color: var(--navbar-color);
   }
+  .carousel-caption {
+    padding: 1px;
+    max-height: fit-content;
+  }
   span {
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 10px;
     font-size: 1.5rem;
+  }
+  .row {
+    clear: both;
+    row-gap: 10px;
   }
   em {
     text-transform: uppercase;
@@ -349,7 +393,9 @@ footer {
     display: flex;
     align-content: center;
     justify-content: center;
-    gap:50px
+    gap: 20px;
+    padding-right: 10px;
+    padding-left: 0;
   }
   li {
     list-style-type: none;

@@ -27,6 +27,7 @@ em {
   display: grid;
   padding: 40px;
   grid-template-columns: auto auto;
+  color: var(--LiText-color);
   text-align: center;
   gap: 10px;
 }

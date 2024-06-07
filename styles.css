@@ -227,7 +227,7 @@ footer {
   background: var(--background-color);
   color: black;
   bottom: 0;
-  position: static;
+  position: fixed;
   width: 100%;
 }
 @media (max-width: 658px) {

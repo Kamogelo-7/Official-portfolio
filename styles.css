@@ -411,6 +411,10 @@ footer {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-transform: uppercase;
   }
+  footer{
+  bottom: 0;
+  position: static;
+  }
 }
 @media (max-width: 770px) {
   p#self {

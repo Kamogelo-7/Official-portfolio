@@ -218,8 +218,8 @@ h1:hover {
 footer {
   justify-content: center;
   display: flex;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: auto;
   height: fit-content;
   font-family: Arial, Helvetica, sans-serif;
@@ -227,7 +227,7 @@ footer {
   background: var(--background-color);
   color: black;
   bottom: 0;
-  position: fixed;
+  position: static;
   width: 100%;
 }
 @media (max-width: 658px) {

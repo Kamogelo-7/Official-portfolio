@@ -221,7 +221,7 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
   width: auto;
-  height: fit-content;
+  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   background: var(--background-color);
@@ -271,9 +271,7 @@ footer {
     padding: 20px 0;
     font-size: 1.5rem;
   }
-  body {
-    width: 100%;
-  }
+
   p#self {
     width: fit-content;
     display: flex;
@@ -328,10 +326,11 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  footer{
-  bottom: 0;
-  position: static;
-  width: 100%;
+  footer {
+    top: 0;
+    bottom: 0;
+    position: static;
+    width: 100%;
   }
 }
 @media (max-width: 410px) {

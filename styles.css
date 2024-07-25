@@ -6,9 +6,24 @@
   --LiText-color: hsl(0, 40%, 98%);
 }
 body {
+  overflow-y: hidden;
+  overflow-y: scroll;
   margin: 0;
   padding: 0;
   background-color: var(--navbar-color);
+}
+label {
+  color: rgba(0, 0, 0, 0.608);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40dvh;
+  transition-duration: 0.5s;
+  display: flex;
+  font-size: 0.9rem;
+  align-items: center;
+  justify-content: center;
+}
+label:hover {
+  color: rgba(255, 0, 0, 0.321);
 }
 img {
   border-style: dotted;
@@ -43,7 +58,13 @@ em {
   display: flex;
   justify-content: flex-start;
 }
-
+.container2 {
+  background-color: var(--navbar-color);
+  font-size: 1rem;
+}
+.Project {
+  background-color: rgb(31, 31, 31);
+}
 nav {
   padding-top: 20px;
   top: 0;

@@ -2,7 +2,7 @@
   --navbar-color: hsl(0, 0%, 0%);
   --background-color: hsl(40, 92%, 58%);
   --button-color: hsl(214, 100%, 50%);
-  --SecondSection-color: hsl(0, 0%, 0%);
+  --SecondSection-color: hsla(0, 1%, 30%, 0.923);
   --LiText-color: hsl(0, 40%, 98%);
 }
 html{

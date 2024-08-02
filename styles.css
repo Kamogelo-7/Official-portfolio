@@ -4,6 +4,7 @@
   --button-color: hsl(214, 100%, 50%);
   --SecondSection-color: hsla(0, 0%, 0%, 0.923);
   --LiText-color: hsl(0, 40%, 98%);
+  --blueTheme-color:hsl(214, 100%, 50%);
 }
 html{
   scroll-behavior: smooth;
@@ -215,13 +216,16 @@ p#self {
 #info {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 5px;
+  color: var(--blueTheme-color);
   padding: 0;
-  font-size: 1.2em;
+  font-size: 1.4em;
+  text-shadow: 2px 5px black ;
 }
 span {
   display: block;
   font-weight: bold;
   text-transform: uppercase;
+  color: black;
 }
 h1 {
   color: rgb(255, 255, 255);

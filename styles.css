@@ -30,10 +30,10 @@ label:hover {
   color: rgba(255, 0, 0, 0.321);
 }
 img {
-  border-style: dotted;
-  border-color: black 15px;
+  border: dotted #010101;
   margin: 10px;
-  width: 100px;
+  width: 150px;
+  height: 200px;
   border-radius: 70px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 8px;

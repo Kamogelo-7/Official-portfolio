@@ -191,7 +191,10 @@ a:hover {
 div.center {
   padding: 30px;
   margin: 0;
-  background-color: var(--background-color);
+  background-image: url(/images/pexels-harun-tan-2311991-3980364.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 #style {
   margin: 0;

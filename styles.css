@@ -5,6 +5,9 @@
   --SecondSection-color: hsl(0, 0%, 0%);
   --LiText-color: hsl(0, 40%, 98%);
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   overflow-y: hidden;
   overflow-y: scroll;

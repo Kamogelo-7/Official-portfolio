@@ -234,7 +234,7 @@ p#self {
 #info {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 5px;
-  color: var(--blueTheme-color);
+  color: lightgreen;
   padding: 0;
   font-size: 1.4em;
   text-shadow: 2px 5px 3px black;

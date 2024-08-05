@@ -44,7 +44,6 @@ em {
 .grid {
   background-color: var(--SecondSection-color);
   display: grid;
-  padding: 40px;
   grid-template-columns: auto auto;
   color: var(--LiText-color);
   text-align: center;
@@ -330,7 +329,6 @@ footer {
   .grid {
     background-color: var(--SecondSection-color);
     display: grid;
-    padding: 40px;
     grid-template-columns: auto;
     text-align: center;
     gap: 10px;

@@ -169,6 +169,7 @@ b {
 }
 
 /* This is the boostrap Customizing components section features */
+
 .nav-link {
   padding-top: 1px;
   color: var(--LiText-color);
@@ -301,11 +302,11 @@ h1 {
   text-transform: uppercase;
   transition: ease-in 0.8s;
   transition: ease-out 0.9s;
-  animation: skew;
+  animation: skewed;
   animation-timeline: view();
 }
 
-@keyframes skew {
+@keyframes skewed {
   0% {
     color: hsl(0, 0%, 100%);
     transform: skew(0deg);
